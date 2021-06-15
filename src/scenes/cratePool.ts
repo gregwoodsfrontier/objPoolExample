@@ -65,8 +65,6 @@ export default class CratePool extends Phaser.GameObjects.Group
 	}
 }
 
-
-
 Phaser.GameObjects.GameObjectFactory.register('cratePool', function () {
 	// @ts-ignore
 	return this.updateList.add(new CratePool(this.scene));
